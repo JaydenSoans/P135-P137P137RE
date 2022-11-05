@@ -1,0 +1,47 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+
+.note{
+    color: black;
+    font-size: 17px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+#target{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#start, #detected, #status {
+    font-size: 20px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;s
+    line-height: 2;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Yesteryear', cursive;
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
